@@ -1,5 +1,5 @@
 
-module.exports = function factory (collaborator) {
+module.exports = function factory (collaborator = { doSomethinImportant () {} }) {
 
 	return {
 		neededAcollaboratorMethod () {
